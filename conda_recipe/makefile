@@ -11,7 +11,7 @@ package/name:
 $(PACKAGE): package/name
 	conda-build --output-folder package . 
 
-build: $(PACKAGE)
+build: $(PACKAGE) package/name
 	@echo done
 
 platforms: $(PACKAGE)
