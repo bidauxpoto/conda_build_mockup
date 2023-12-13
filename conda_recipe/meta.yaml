@@ -11,8 +11,10 @@ source:
 requirements:
   host:
     - perl
+    - python>=3
   run:
     - perl
+    - python>=3
 
 about:
   home: URL to Github
